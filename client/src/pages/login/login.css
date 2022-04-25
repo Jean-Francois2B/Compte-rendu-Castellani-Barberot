@@ -1,0 +1,111 @@
+.login{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-ORnMoGq5GQzXFF7nk6qKvcACvNUFDjRGQg&usqp=CAU") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.loginWrapper{
+    width: 70%;
+    height: 70%;
+    display: flex;
+}
+
+.loginRight,.loginLeft{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.loginLogo{
+    font-size: 50px;
+    font-weight: 800;
+    color : #8cd0ef;
+    margin-bottom: 10px;
+    place-self: center;
+
+}
+
+.loginDesc{
+    font-size: 24px;
+    
+}
+
+.loginBox{
+    height: 300px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.loginInput{
+    height: 50px;
+    border-radius: 10px;
+    border : 1px solid grey;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+.loginInput:focus{
+    outline: none;
+}
+
+.loginButton{
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #8cd0ef;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.loginButton:Hover{
+    background-color: #3ab3eb;
+}
+.loginLogo:Hover{
+    color: #3ab3eb;
+}
+.loginForgot{
+    text-align: center;
+    color:#8cd0ef;
+}
+.loginForgot:hover{
+    text-decoration: underline;
+}
+.loginRegisterButton{
+    width: 60%;
+    align-self: center;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #d380c8 ;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.loginRegisterButton:hover{
+    background-color: #d851c6 ;
+}
+
+.LogoHome{
+    width: 20%;
+    padding-right : 20 px;
+    margin-bottom: 20 px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    align-self: center;
+}
