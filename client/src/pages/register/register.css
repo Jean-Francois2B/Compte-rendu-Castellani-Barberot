@@ -1,0 +1,113 @@
+.register{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-ORnMoGq5GQzXFF7nk6qKvcACvNUFDjRGQg&usqp=CAU") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.registerWrapper{
+    width: 70%;
+    height: 70%;
+    display: flex;
+}
+
+.registerRight,.registerLeft{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.registerLogo{
+    font-size: 50px;
+    font-weight: 800;
+    color : #8cd0ef;
+    margin-bottom: 10px;
+    place-self: center;
+
+}
+
+.registerDesc{
+    font-size: 24px;
+}
+
+.registerBox{
+    height: 400px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.registerInput{
+    height: 50px;
+    border-radius: 10px;
+    border : 1px solid grey;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+.registerInput:focus{
+    outline: none;
+}
+
+.registerButton{
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #8cd0ef;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+.registerButton:Hover{
+    background-color: #3ab3eb;
+}
+.registerLogo:Hover{
+    color: #3ab3eb;
+}
+.registerForgot{
+    text-align: center;
+    color:#8cd0ef;
+}
+.registerForgot:hover{
+    text-decoration: underline;
+}
+.registerRegisterButton{
+    width: 60%;
+    align-self: center;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #d380c8 ;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.registerRegisterButton:hover{
+    background-color: #d851c6 ;
+}
+
+.LogoHome{
+    width: 20%;
+    padding-right : 20 px;
+    margin-bottom: 20 px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    align-self: center;
+}
